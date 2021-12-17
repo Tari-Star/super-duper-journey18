@@ -26,6 +26,7 @@ const thoughtController = {
         res.status(400).json(err);
       });
   },
+  // create new thought
   addThought({ params, body }, res) {
     Thought.create(body)
       .then(({ _id }) => {
@@ -49,6 +50,7 @@ const thoughtController = {
         res.status(400).json(err);
       });
   },
+  // update existing thought
   reviseThought({ params, body }, res) {
     Thought.findByIdAndUpdate({ _id: params.id }, body, { new: true })
       .then((dbThoughtData) => {
@@ -64,6 +66,7 @@ const thoughtController = {
         res.status(400).json(err);
       });
   },
+  // delete thought
   removeThought({ params }, res) {
     Thought.findOneAndDelete({ _id: params.id })
       .then((dbThoughtData) => {
@@ -80,3 +83,5 @@ const thoughtController = {
       });
   },
 };
+
+module.exports = thoughtController;
