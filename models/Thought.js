@@ -50,7 +50,7 @@ const ThoughtSchema = new Schema(
       type: String,
       required: true,
     },
-    // array of nested documents created with the ReactionSchema
+    // use ReactionSchema to validate data for a reaction
     reactions: [ReactionSchema],
   },
   {

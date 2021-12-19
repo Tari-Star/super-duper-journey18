@@ -18,7 +18,6 @@
   },
   "homepage": "https://github.com/Tari-Star/super-duper-journey18#readme",
   "dependencies": {
-    "dayjs": "^1.10.7",
     "express": "^4.17.1",
     "mongoose": "^6.1.2"
   }
