@@ -91,16 +91,16 @@ const thoughtController = {
   // delete thought
   removeThought({ params }, res) {
     Thought.findOneAndDelete({ _id: params.thoughtId })
-      .then((deletedThought) => {
-        if (!deletedThought) {
-          return res.status(404).json({ message: "No thought with this id!" });
-        }
-        return User.findOneAndUpdate(
-          { _id: params.userId },
-          { $pull: { thoughts: params.thoughtId } },
-          { new: true }
-        );
-      })
+       .then((deletedThought) => {
+         if (!deletedThought) {
+           return res.status(404).json({ message: "No thought with this id!" });
+         }
+          return User.findOneAndUpdate(
+            { _id: params.userId },
+            { $pull: { thoughts: params.thoughtId } },
+            { new: true }
+          );
+       })
       .then((dbUserData) => {
         //if no thought is found, send 404
         if (!dbUserData) {

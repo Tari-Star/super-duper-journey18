@@ -17,11 +17,11 @@
 
 
 ***SCREENCASTIFY***
-* Walkthrough video: [View walkthrough video on Screencastify]()<br>
+* Walkthrough video: [View walkthrough video on Screencastify](https://watch.screencastify.com/v/VimYP0UtU8IyFbZwraRw)<br>
 
 ***GITHUB***
 
-* Repository link: [https://github.com/Tari-Star/Challenge13-E-commerce.git](https://github.com/Tari-Star/super-duper-journey18.git)
+* Repository link: [https://github.com/Tari-Star/super-duper-journey18.git](https://github.com/Tari-Star/super-duper-journey18.git)
 
 ## Demo:
 
