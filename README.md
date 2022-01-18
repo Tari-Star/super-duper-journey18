@@ -15,6 +15,7 @@
 * [License](#license)
 * [Questions](#questions)
 
+## Demo:
 
 ***SCREENCASTIFY***
 * Walkthrough video: [View walkthrough video on Screencastify](https://watch.screencastify.com/v/VimYP0UtU8IyFbZwraRw)<br>
@@ -23,9 +24,9 @@
 
 * Repository link: [https://github.com/Tari-Star/super-duper-journey18.git](https://github.com/Tari-Star/super-duper-journey18.git)
 
-## Demo:
 
- ## Technology:
+
+## Technology:
  > Links ( click on titles )
 
  **1. [Node.js ](https://nodejs.org/en/):**
